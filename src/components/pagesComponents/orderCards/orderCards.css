@@ -1,0 +1,18 @@
+.orderCards {
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px grey solid;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.orderCards__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
